@@ -9,7 +9,7 @@ const packageRows = [
 export function Header(): string {
   return `<div class="utility"><div class="shell"><span>Loft storage, surveyed and professionally installed</span><a href="#quote">Book a free survey ${arrow}</a></div></div>
   <header class="header" data-header><div class="shell nav-wrap">
-    <a class="brand" href="#top" aria-label="OpenLoft home"><img src="/assets/openloft-icon.png" alt="OpenLoft" /></a>
+    <a class="brand" href="#top" aria-label="OpenLoft home"><img src="/assets/openloft-header-red.png" alt="OpenLoft" /></a>
     <nav class="desktop-nav" aria-label="Main navigation"><a href="#packages">Packages</a><a href="#process">How it works</a><a href="#standards">Our standards</a><a href="#faqs">FAQs</a></nav>
     <a class="button button-small" href="#quote">Check your postcode ${arrow}</a>
     <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" data-menu-button>${menu}</button>
