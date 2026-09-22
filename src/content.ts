@@ -10,10 +10,10 @@ export function Header(): string {
   return `<div class="utility"><div class="shell"><span>Loft storage, surveyed and professionally installed</span><a href="#quote">Book a free survey ${arrow}</a></div></div>
   <header class="header" data-header><div class="shell nav-wrap">
     <a class="brand" href="#top" aria-label="OpenLoft home"><img src="/assets/openloft-header-red.png" alt="OpenLoft" /></a>
-    <nav class="desktop-nav" aria-label="Main navigation"><a href="#packages">Packages</a><a href="#process">How it works</a><a href="#standards">Our standards</a><a href="#faqs">FAQs</a></nav>
+    <nav class="desktop-nav" aria-label="Main navigation"><a href="#packages">Packages</a><a href="#process">How it works</a><a href="#standards">Our standards</a><a href="/blog/">Guides</a><a href="#faqs">FAQs</a></nav>
     <a class="button button-small" href="#quote">Check your postcode ${arrow}</a>
     <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" data-menu-button>${menu}</button>
-  </div><nav class="mobile-nav" aria-label="Mobile navigation" data-mobile-nav><button type="button" aria-label="Close menu" data-menu-close>${close}</button><a href="#packages">Packages</a><a href="#process">How it works</a><a href="#standards">Our standards</a><a href="#faqs">FAQs</a><a class="button" href="#quote">Get a free survey ${arrow}</a></nav></header>`;
+  </div><nav class="mobile-nav" aria-label="Mobile navigation" data-mobile-nav><button type="button" aria-label="Close menu" data-menu-close>${close}</button><a href="#packages">Packages</a><a href="#process">How it works</a><a href="#standards">Our standards</a><a href="/blog/">Guides</a><a href="#faqs">FAQs</a><a class="button" href="#quote">Get a free survey ${arrow}</a></nav></header>`;
 }
 
 export function Hero(): string {
@@ -43,5 +43,5 @@ export function Quote(): string {
 }
 
 export function Footer(): string {
-  return `<footer><div class="shell footer-main"><a href="#top"><img src="/assets/openloft-wordmark-white.png" alt="OpenLoft" /></a><p>Practical loft storage, properly surveyed and professionally installed.</p><div><a href="#packages">Packages</a><a href="#process">How it works</a><a href="#faqs">FAQs</a><a href="#quote">Free survey</a></div></div><div class="shell footer-base"><span>© ${new Date().getFullYear()} OpenLoft Ltd</span><span>Storage installation—not habitable loft conversion</span></div></footer>`;
+  return `<footer><div class="shell footer-main"><a href="#top"><img src="/assets/openloft-wordmark-white.png" alt="OpenLoft" /></a><p>Practical loft storage, properly surveyed and professionally installed.</p><div><a href="#packages">Packages</a><a href="#process">How it works</a><a href="/blog/">Guides</a><a href="#faqs">FAQs</a><a href="#quote">Free survey</a></div></div><div class="shell footer-base"><span>© ${new Date().getFullYear()} OpenLoft Ltd</span><span>Storage installation—not habitable loft conversion</span></div></footer>`;
 }
